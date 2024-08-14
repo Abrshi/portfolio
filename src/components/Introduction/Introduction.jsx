@@ -6,7 +6,6 @@ function Introduction() {
     <div id='home' className={introduction.outer}>
       <div className={introduction.firstSection}>
         <div className={introduction.nameandjob}>
-          <h3 className={introduction.name}>Abreham Yeshitlay</h3>
           <h3 className={introduction.job}>Full Stack Web Developer</h3>
         </div>
         <div className={introduction.discription}>

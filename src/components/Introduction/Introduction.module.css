@@ -9,7 +9,7 @@
     gap: 5%;
     height: 80%;
     margin-top: -10px;
-    background-color: #8c3061;
+    background-color: #FAEDCE;
 }
 .firstSection ,.secondSection{
     height: 350px;
@@ -28,14 +28,7 @@
     /* background-color: #ffd745;    */
     width: 30%;
 }
-.name{
-    font-size: 170%;
-    font-weight: 500;
-}
-.job{
-    font-size: 170%;
-    font-weight: 900;
-}
+
 .secondSection>img{
     width: auto;
     height: 280px;
@@ -82,7 +75,7 @@
     border-radius: 100% 100%;
     width :65%;
     height: 30%;
-    background-color:#8C3061;
+    background-color:#FAEDCE;
     z-index: -1;
     transform: translate(68% ,-70%);
 }
@@ -94,12 +87,10 @@
     border-radius: 100% 1%;
     width: 95%;
     height: 30%;
-    background-color: #8C3061;
+    background-color: #FAEDCE;
     z-index: -1; 
     transform: translate(-40% ,-50%);
 }
-
-
 
 .imgcontener{
 margin-left: -200px;
@@ -122,6 +113,7 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
         justify-content: center;
         margin: auto;
         gap: 80px;
+        height: auto;
     }
     .secondSection , .firstSection{
         margin: 40px auto;
@@ -144,7 +136,7 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
         width: auto;
         align-items: center;
         justify-content: space-between;
-        height: 100%;
+        height: auto;
     }
     .name{
         font-size: 140%;
@@ -174,7 +166,6 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
     width:auto;
     height: fit-content;
     border-radius: 20px;
-    /* padding: 5px; */
 }
 .secondSection{
     max-width: 560px;
@@ -184,7 +175,13 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
     /* padding: 5px; */
 }
   }
+
   @media (max-width: 768px){
+    .outer{
+        width: auto;
+        
+        height: auto;
+    }
     .secondSection>img{
         display: block;
         margin: auto;
@@ -192,7 +189,6 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
         height: 210px;
     }
     .secondSection{
-        /* display: block; */
         margin-top: -50px;
         height: 210px;
     }
@@ -201,4 +197,16 @@ filter: drop-shadow(30px 20px 18px #1d1c1c);
         margin-bottom: 0px;
         padding-bottom: 20px;
     }
+}
+
+
+
+
+.job{
+    margin-top: 190px;
+    font-size: 45px;
+    font-weight: 900;
+}
+.discription{
+font-size: 30px;
 }
