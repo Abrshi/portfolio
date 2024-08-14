@@ -1,11 +1,11 @@
 import React from 'react';
 import introduction from './Introduction.module.css';
-
+import profile from '../../assets/profile.png'
 function Introduction() {
   return (<div className={introduction.first}>
     <div id='home' className={introduction.outer}>
       <div className={introduction.firstSection}>
-        <div className={introduction.name}>
+        <div className={introduction.nameandjob}>
           <h3 className={introduction.name}>Abreham Yeshitlay</h3>
           <h3 className={introduction.job}>Full Stack Web Developer</h3>
         </div>
@@ -23,7 +23,9 @@ function Introduction() {
         </div>
       </div>
       <div className={introduction.secondSection}>
-        {/* Content for the second section */}
+       <div className={introduction.imgcontener}>
+       <img src={profile} alt="profile" className={introduction.img} />
+       </div>
       </div>
     </div>
     <div className={introduction.wev}></div>

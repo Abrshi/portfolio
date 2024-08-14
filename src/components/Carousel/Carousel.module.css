@@ -5,8 +5,12 @@
     width:120px ;
     height: 120px;
     transition: 0.4s;
-   
-}
+
+    border-radius: 30%;
+    filter: drop-shadow(13px 20px 1px #0000004d);
+    padding-bottom: 15px;
+    
+    }
 .img:hover{
     transform: scale(1.1);
     cursor: pointer;

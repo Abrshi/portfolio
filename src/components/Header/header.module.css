@@ -73,7 +73,7 @@ li, .menuicon {
 }
 .latterA:hover{
   border: 1px solid;
-  border-color: #0760af;
+  border-color: #D95F59;
   background-color: #D95F59;
   border-radius: 0 15px;
   font-size: x-large;
@@ -103,7 +103,7 @@ li, .menuicon {
     border-radius: 5px;
     color: white;
     padding: 4px 40px;
-    background-color: #0760af;
+    background-color: #D95F59;
   }
   .leftHeader > ul {
     justify-content: center;

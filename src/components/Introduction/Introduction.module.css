@@ -5,6 +5,7 @@
     max-width: 100%;
     align-items: center;
     margin: 100px auto 30px auto;
+    margin-top: 0px;
     gap: 5%;
     height: 80%;
     margin-top: -10px;
@@ -99,6 +100,20 @@
 }
 
 
+
+.imgcontener{
+margin-left: -200px;
+}
+
+.img{
+border-radius: 30%;
+filter: drop-shadow(30px 20px 18px #1d1c1c);
+
+}
+
+
+
+
 @media (max-width: 960px) {
     .outer{
         display: inline-block;
@@ -117,10 +132,16 @@
         height: 210px;
         margin-top: -10px;
     }
+    .imgcontener{
+        margin: -120px auto;
+
+        }
+        
+       
   }
   @media (max-width: 768px){
     .outer{
-        width: 100%;
+        width: auto;
         align-items: center;
         justify-content: space-between;
         height: 100%;
